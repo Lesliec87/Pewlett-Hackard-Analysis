@@ -27,15 +27,15 @@ We also worked on two assigments to determine the number of retiring employees p
 1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
   - There will be a total of 72458 roles to be filled.
    
-To find the count for the roles I used the "COUNT()" function on the "emp_no" column in "unique_titles" table:
+  - To find the count for the roles I used the "COUNT()" function on the "emp_no" column in "unique_titles" table:
 
 ### Retiring Count
 ![Retiring Count](https://github.com/Lesliec87/Pewlett-Hackard-Analysis/blob/main/Data/retirement%20count.png)
 
 2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
- - There are not enough qualified employees to mentor since the amount of retirement roles are extrememly high compared to eligible mentors: 
+  - There are not enough qualified employees to mentor since the amount of retirement roles are extrememly high compared to eligible mentors: 
  
-To find the count for the employees eligible to mentor I used the "COUNT()" function on the "emp_no" column in "mentorship_eligibility" table: 
+  - To find the count for the employees eligible to mentor I used the "COUNT()" function on the "emp_no" column in "mentorship_eligibility" table: 
 
 ### Mentorship Count
 ![Mentorship Count](https://github.com/Lesliec87/Pewlett-Hackard-Analysis/blob/main/Data/mentorship%20count.png)
