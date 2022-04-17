@@ -9,7 +9,7 @@ We also worked on two assigments to determine the number of retiring employees p
 
 ### Employee Database performed [Employee_Database_challenge](https://github.com/Lesliec87/Pewlett-Hackard-Analysis/blob/main/Queries/Employee_Database_challenge.sql)
 
-- We found that their is a very high amount of retiring employees: 
+- We found that their is a very high amount of retiring employees by titles: 
   - 25,916 Senior Engineers
   - 24,926 Senior Staff
   - 9,285 Enrineers
@@ -19,9 +19,20 @@ We also worked on two assigments to determine the number of retiring employees p
   - 2 Managers
 - The total eligible for mentorship eligibility are 1,549 employees 
 
+![Retiring Titles](https://github.com/Lesliec87/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.png)
+
 
 ## Summary: 
 
-Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+  - There will be a total of 72458 roles to be filled.
+   
+To find the count for the roles I used the "COUNT()" function on the "emp_no" column in "unique_titles" table: 
+![Retiring Count](https://github.com/Lesliec87/Pewlett-Hackard-Analysis/blob/main/Data/retirement%20count.png)
+
+2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+ - There are not enough qualified employees to mentor since the amount of retirement roles are extrememly high compared to eligible mentors: 
+ 
+To find the count for the employees eligible to mentor I used the "COUNT()" function on the "emp_no" column in "mentorship_eligibility" table: 
+![Mentorship Count](https://github.com/Lesliec87/Pewlett-Hackard-Analysis/blob/main/Data/mentorship%20count.png)
+
